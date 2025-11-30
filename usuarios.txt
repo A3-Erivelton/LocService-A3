@@ -7,3 +7,4 @@ Pão da Vila,paodavila@locservice.com,pao123
 PetCare,petcare@locservice.com,pet123
 Fitness Point,fitness@locservice.com,fit123
 TechCondo,techcondo@locservice.com,tech123
+Matheus,matheus@gmail.com,matheus123
