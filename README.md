@@ -126,6 +126,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 **Passo 1**: Clonar o Repositório digitando no terminal do VSCode `git clone https://github.com/A3-Erivelton/LocService-A3.git`. Em seguida, se direcione para a pasta LocService-A3 digitando `cd LocService-A3`.
 
+
 **Passo 2**: Conferir se todos os arquivos foram clonados na máquina local, caso contrário ir para passo 2.1.
 
   - **Passo 2.1**: Conferir a branch digitando `git branch`. Se estiver na main, muda para a master digitando `git checkout master`.
@@ -142,13 +143,18 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 **Passo 1**: Estando, no terminal, na pasta "LocService-A3", entrar na pasta "backend" digitando `cd backend`.
 
+
 **Passo 2**: Instalar os pacotes do node digitando `npm install`.
+
 
 **Passo 3**: Abrir arquivo `.env.example` na pasta "backend". Copiar o conteúdo inteiro e criar um arquivo chamado ".env" na mesma pasta, no qual irá colar o conteúdo e alterar a senha do banco de dados na linha 9 em "DB_PASSWORD" para a senha do seu banco de dados.
 
+
 **Passo 4**: Executar no terminal script que cria o banco de dados digitando `npm run setup`.
 
+
 **Saída esperada:**
+````
 🔧 SETUP DO BANCO DE DADOS
 
 📡 Conectando ao MySQL...
@@ -165,10 +171,14 @@ Antes de executar o projeto, certifique-se de ter instalado:
     usuarios
 
 ✅ Setup concluído com sucesso!
+````
+
 
 **Passo 5**: Executar no terminal script que popula o banco de dados com dados fictícios digitando `npm run seed`.
 
+
 **Saída esperada:**  (reduzimos aqui o texto esperado para economizar linhas)
+````
 🌱 SEED - POPULANDO BANCO DE DADOS
 
 📡 Conectando ao MySQL...
@@ -196,9 +206,14 @@ Admin: admin@locservice.com / admin123
 Empresa: jardins@locservice.com / jardim123
 
 ✅ Seed concluído com sucesso!
+````
+
 
 **Passo 6**: Executar o servidor backend digitando "npm run dev". O backend estará rodando. Mantenha o terminal aberto!!!!
+
+
   **Saída esperada:**
+  ````
   ✅ Conectado ao MySQL!
   
   🚀 Servidor rodando na porta 3000
@@ -215,6 +230,7 @@ Empresa: jardins@locservice.com / jardim123
   GET /api/empresas/stats
   
   ✅ Backend pronto para uso!
+````
 
 ---
 
@@ -222,12 +238,12 @@ Empresa: jardins@locservice.com / jardim123
 
 **Com Live Server (VSCode)**
 
-1. Talvez, após o "git pull" o projeto estará dentro de uma pasta selecionada previamente com "Open Folder", o que acarretará desconfiguração do CSS no front. Se for o caso, clique em "Open Folder" e selecione a pasta "LocService-A3". Em seguida vá para 1.1.
-   1.1 O backend irá se fechar, portanto entre na sua pasta pasta digitando "cd backend" e em seguida digite "npm run dev" novamente para subir o servidor backend.
-2. Abra a pasta `frontend/` no VSCode
-3. Clique com botão direito em `index.html`
-4. Selecione **"Open with Live Server"**
-5. Navegador abrirá automaticamente em `http://localhost:5500` ou `http://127.0.0.1:5501`.
+**Passo 1**: Talvez, após o "git pull" o projeto estará dentro de uma pasta selecionada previamente com "Open Folder", o que acarretará desconfiguração do CSS no front. Se for o caso, clique em "Open Folder" e selecione a pasta "LocService-A3". Em seguida vá para 1.1.
+  - **Passo 1.1**: O backend irá se fechar, portanto entre na sua pasta pasta digitando "cd backend" e em seguida digite "npm run dev" novamente para subir o servidor backend.
+**Passo 2**: Abra a pasta `frontend/` no VSCode
+**Passo 3**: Clique com botão direito em `index.html`
+**Passo 4**: Selecione **"Open with Live Server"**
+**Passo 5**:. Navegador abrirá automaticamente em `http://localhost:5500` ou `http://127.0.0.1:5501`.
 
 ---
 
@@ -264,10 +280,10 @@ Retorna estatísticas de categorias.
 
 ## 👨‍💻 Autores
 
-**Matheus Cavalcante Monteiro** - **RA** 1282421475
-**Francisco Edglê Silverio de Oiveira** - **RA** 12824213212
-**Alison Guilherme Graciano Ramalho** - **RA** 1282421073
-**Jéssica Priscila Silva Da Rocha** - **RA** 1282421957
+- **Matheus Cavalcante Monteiro** - **RA** 1282421475
+- **Francisco Edglê Silverio de Oiveira** - **RA** 12824213212
+- **Alison Guilherme Graciano Ramalho** - **RA** 1282421073
+- **Jéssica Priscila Silva Da Rocha** - **RA** 1282421957
 
 ## 🙏 Agradecimentos
 
