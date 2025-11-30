@@ -239,10 +239,19 @@ Empresa: jardins@locservice.com / jardim123
 **Com Live Server (VSCode)**
 
 **Passo 1**: Talvez, após o "git pull" o projeto estará dentro de uma pasta selecionada previamente com "Open Folder", o que acarretará desconfiguração do CSS no front. Se for o caso, clique em "Open Folder" e selecione a pasta "LocService-A3". Em seguida vá para 1.1.
+
   - **Passo 1.1**: O backend irá se fechar, portanto entre na sua pasta pasta digitando "cd backend" e em seguida digite "npm run dev" novamente para subir o servidor backend.
-**Passo 2**: Abra a pasta `frontend/` no VSCode
-**Passo 3**: Clique com botão direito em `index.html`
-**Passo 4**: Selecione **"Open with Live Server"**
+
+
+**Passo 2**: Abra a pasta `frontend/` no VSCode.
+
+
+**Passo 3**: Clique com botão direito em `index.html`.
+
+
+**Passo 4**: Selecione **"Open with Live Server"**.
+
+
 **Passo 5**:. Navegador abrirá automaticamente em `http://localhost:5500` ou `http://127.0.0.1:5501`.
 
 ---
