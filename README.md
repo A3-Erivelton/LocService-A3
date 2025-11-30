@@ -122,19 +122,19 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 ## 🚀 Instalação e Configuração
 
-**SEM TER O PROJETO BAIXADO:**
-### Passo 1: Clonar o Repositório digitando no terminal do VSCode "git clone https://github.com/A3-Erivelton/LocService-A3.git". Em seguida, se direcione para a pasta LocService-A3 digitando "cd LocService-A3".
-### Passo 2: Conferir se todos os arquivos foram clonados na máquina local, caso contrário ir para passo 2.1.
-  ### Passo 2.1: Conferir a branch digitando "git branch". Se estiver na main, muda para a master digitando "git checkout master".
-      obs: o projeto foi feito sem querer na branch master em vez da main.
-  ### Passo 2.2: Fazer o download dos arquivos digitando "git pull origin master". Se der o erro "fatal: refusing to merge unrelated histories", ir para o passo 2.3.
-  ### Passo 2.3: Faça o git pull digitando "git pull origin master --allow-unrelated-histories". Em seguida, digite ":wq" e dê Enter. Os arquivos serão baixados na máquina local.
+### SEM TER O PROJETO BAIXADO:
+**Passo 1**: Clonar o Repositório digitando no terminal do VSCode "git clone https://github.com/A3-Erivelton/LocService-A3.git". Em seguida, se direcione para a pasta LocService-A3 digitando "cd LocService-A3".
+**Passo 2**: Conferir se todos os arquivos foram clonados na máquina local, caso contrário ir para passo 2.1.
+- **Passo 2.1**: Conferir a branch digitando "git branch". Se estiver na main, muda para a master digitando "git checkout master".
+obs: o projeto foi feito sem querer na branch master em vez da main.
+- **Passo 2.2**: Fazer o download dos arquivos digitando "git pull origin master". Se der o erro "fatal: refusing to merge unrelated histories", ir para o passo 2.3.
+- **Passo 2.3**: Faça o git pull digitando "git pull origin master --allow-unrelated-histories". Em seguida, digite ":wq" e dê Enter. Os arquivos serão baixados na máquina local.
 
-**JÁ COM O PROJETO BAIXADO:**
-### Passo 1: Estando, no terminal, na pasta "LocService-A3", entrar na pasta "backend" digitando "cd backend".
-### Passo 2: Instalar os pacotes do node digitando "npm install".
-### Passo 3: Abrir arquivo ".env.example" na pasta "backend". Copiar o conteúdo inteiro e criar um arquivo chamado ".env" na mesma pasta, no qual irá colar o conteúdo e alterar a senha do banco de dados na linha 9 em "DB_PASSWORD" para a senha do seu banco de dados.
-### Passo 4: Executar no terminal script que cria o banco de dados digitando "npm run setup". 
+### JÁ COM O PROJETO BAIXADO:
+**Passo 1**: Estando, no terminal, na pasta "LocService-A3", entrar na pasta "backend" digitando "cd backend".
+**Passo 2**: Instalar os pacotes do node digitando "npm install".
+**Passo 3**: Abrir arquivo ".env.example" na pasta "backend". Copiar o conteúdo inteiro e criar um arquivo chamado ".env" na mesma pasta, no qual irá colar o conteúdo e alterar a senha do banco de dados na linha 9 em "DB_PASSWORD" para a senha do seu banco de dados.
+**Passo 4**: Executar no terminal script que cria o banco de dados digitando "npm run setup". 
   **Saída esperada:**
   📡 Conectando ao MySQL...
   ✅ Conectado ao MySQL!
@@ -146,12 +146,11 @@ Antes de executar o projeto, certifique-se de ter instalado:
   ✅ Banco de dados 'locservice_db' criado/verificado!
   
   📊 Tabelas criadas:
-  
-      usuarios
+  usuarios
   
   ✅ Setup concluído com sucesso!
   
-### Passo 5: Executar no terminal script que popula o banco de dados com dados fictícios digitando "npm run seed".
+**Passo 5**: Executar no terminal script que popula o banco de dados com dados fictícios digitando "npm run seed".
   **Saída esperada:** (reduzimos aqui o texto esperado para economizar linhas)
   📡 Conectando ao MySQL...
   ✅ Conectado ao MySQL!
@@ -160,7 +159,6 @@ Antes de executar o projeto, certifique-se de ter instalado:
   ✅ Tabela limpa!
   
   📝 Inserindo usuários...
-  
   ✅ Administrador (admin@locservice.com)
   ✅ Jardins & Cia (jardins@locservice.com)
   ✅ Limpa Tudo (limpatudo@locservice.com)
@@ -170,7 +168,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
   ✅ TechCondo (techcondo@locservice.com)
   ✅ Pão da Vila (paodavila@locservice.com)
   ✅ Conserta+ (consertamais@locservice.com)
-  ====================================
+
   ✅ 9 usuários inseridos com sucesso!
   [...]
   💡 Dados de Login:
@@ -179,7 +177,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
   
   ✅ Seed concluído com sucesso!
 
-### Passo 6: Executar o servidor backend digitando "npm run dev". O backend estará rodando. Mantenha o terminal aberto!!!!
+**Passo 6**: Executar o servidor backend digitando "npm run dev". O backend estará rodando. Mantenha o terminal aberto!!!!
   **Saída esperada:**
   ✅ Conectado ao MySQL!
   
