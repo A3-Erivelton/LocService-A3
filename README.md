@@ -135,7 +135,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
   
   - **Passo 2.2**: Fazer o download dos arquivos digitando `git pull origin master`. Se der o erro "fatal: refusing to merge unrelated histories", ir para o passo 2.3.
 
-  - **Passo 2.3**: Faça o git pull digitando `git pull origin master --allow-unrelated-histories`. Em seguida, digite `wq` e dê Enter. Os arquivos serão baixados na máquina local.
+  - **Passo 2.3**: Faça o git pull digitando `git pull origin master --allow-unrelated-histories`. Em seguida, digite `:wq` e dê Enter. Os arquivos serão baixados na máquina local.
 
 ---
 
